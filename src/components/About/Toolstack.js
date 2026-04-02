@@ -8,7 +8,7 @@ import intelliJ from "../../Assets/TechIcons/intellij-idea.svg";
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      {/* <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons">
         <img src={macOs} alt="macOs" className="tech-icon-images" />
         <div className="tech-icons-text">Mac Os</div>
       </Col>
@@ -24,7 +24,7 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons ">
         <img src={intelliJ} alt="go" className="tech-icon-images" />
         <div className="tech-icons-text">IntelliJ</div>
-      </Col> */}
+      </Col>
     </Row>
   );
 }
